@@ -13,10 +13,10 @@ const Navbar = () => {
 
         {/* Logo + Subtext with LanceSoft Logo to the right */}
         <Link
-          href="https://www.lancesoft.com/"
+          href="/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 h-20"
+          className="flex items-c#enter gap-2 h-20"
           aria-label="Go to LanceSoft"
         >
           {/* Main Logo + Subtext */}
@@ -30,18 +30,8 @@ const Navbar = () => {
               />
             </div>
             <span className="text-[10px] text-gray-600 font-['Roboto'] font-bold mt-1 tracking-wide text-center w-full">
-              A - LANCESOFT COMPANY
+              Cloudsuite Flemingo Services
             </span>
-          </div>
-
-          {/* LanceSoft Logo on the right */}
-          <div className="relative w-[100px] h-12">
-            <Image
-              src={LanceSoftLogo}
-              alt="LanceSoft Logo"
-              fill
-              className="object-contain"
-            />
           </div>
         </Link>
 
