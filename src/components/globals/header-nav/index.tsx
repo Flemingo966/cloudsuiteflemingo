@@ -13,9 +13,7 @@ const Navbar = () => {
         {/* Logo + Subtext with LanceSoft Logo to the right */}
         <Link
           href="/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-c#enter gap-2 h-20"
+          className="flex items-center gap-2 h-20"
           aria-label="Go to LanceSoft"
         >
           {/* Main Logo + Subtext */}
