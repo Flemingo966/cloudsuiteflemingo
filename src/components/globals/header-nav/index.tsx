@@ -4,7 +4,6 @@ import { MobileNavItem } from "./mobile-nav-item";
 import { MobileNavbar } from "./mobile-navbar";
 import Image from "next/image";
 import NavLogo from "@/assets/brand-logos/nav-logo.png";
-import LanceSoftLogo from "@/assets/brand-logos/lancesoft-logo.png"; // Make sure this path matches your project
 
 const Navbar = () => {
   return (
