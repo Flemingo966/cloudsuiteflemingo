@@ -10,7 +10,11 @@ const ConsultingCards = () => {
   return (
     <section id="services" className="py-14">
       <div className="container">
-        <h2 className="md:text-5xl font-semibold text-center font-primary">&apos;Where Expertise Meets Execution—Your NetSuite Consulting Arm&apos;</h2>
+       <h2 className="md:text-5xl font-semibold text-center font-primary">
+  'Where Expertise Meets Execution—
+  <span className="text-orange-500 font-bold">Your ERP Consulting Arm</span>'
+</h2>
+
         <h5 className="text-center mt-3 font-medium font-secondary ">
           It&apos;s What We Do.&nbsp;It&apos;s What We&apos;ve Always Done
           <div>Let&apos;s See

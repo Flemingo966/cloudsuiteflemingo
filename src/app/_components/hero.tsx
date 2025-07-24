@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="my-8"></div>
 
         <p className="text-base md:text-lg max-w-2xl font-secondary">
-          At Cloudsuite Flemingo Services, we specialize in delivering tailored NetSuite ERP solutions to streamline your business processes and boost your productivity. With years of expertise, our certified professionals provide end-to-end NetSuite services that drive growth and innovation.
+        We at Cloudsuite Flemingo Services have over a decade of experience in the field, providing complete ERP implementation solutions that are suited to a wide range of business requirements. Leading platforms like Oracle NetSuite , Salesforce, Zoho, and Microsoft Dynamics 365 are all areas in which we have extensive experience. With ten years of practical experience and a staff of qualified experts, we provide intelligent, scalable ERP systems that help businesses increase efficiency, streamline processes, and promote long-term success.
         </p>
       </div>
     </section>
