@@ -54,9 +54,6 @@ const Footer = () => {
          <Link href="mailto:sales@flemingoservices.com" className="text-sm text-white hover:underline">
       📧 sales@flemingoservices.com
     </Link>
-    <Link href="mailto:Info@LanceSoft.com" className="text-sm text-white hover:underline">
-      📧 pmo@lancesoft.com
-    </Link>
       </div>
     </div>
   </div>
@@ -94,7 +91,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <p className="text-center text-sm text-white mt-10">
-        &copy; 2025 All rights reserved. Flemingo Services Pvt. Ltd.
+        &copy; 2025 All rights reserved. Cloudsuite Flemingo Services Pvt. Ltd.
       </p>
     </footer>
   );
