@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { Bricolage_Grotesque } from "next/font/google";
+import { Golos_Text, Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/globals/footer";
 import Navbar from "@/components/globals/header-nav";
 
 
-const bricolage = Bricolage_Grotesque({
-  weight : ["200", "300", "400", "500", "600", "700"],
+const golosText = Golos_Text({
+  weight : ["400", "500", "600", "700"],
   variable : "--font-primary",
   subsets : ["latin"]
 })
 
-const publicSans = Bricolage_Grotesque({
+const inter = Inter({
   weight : ["200", "300", "400", "500", "600", "700"],
   variable : "--font-secondary",
   subsets : ["latin"]
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${bricolage.variable} ${publicSans.variable} antialiased`}
+        className={`${golosText.variable} ${inter.variable} antialiased text-green font-secondary`}
       >
         <Navbar />
           {children}

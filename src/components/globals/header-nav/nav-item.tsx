@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import style from "./nav.module.css"
 interface NavItemProps {
   label: string;
   href: string;
@@ -11,7 +11,7 @@ export function NavItem({ label, href, className }: NavItemProps) {
     <Link
       href={href}
       className={
-        `border-b-2 border-transparent hover:border-orange flex cursor-pointer items-center font-medium text-muted-foreground transition-colors hover:text-foreground text-sm ${className}`
+        `${style.navitem} ${className} text-white`
       }
     >
       {label}
