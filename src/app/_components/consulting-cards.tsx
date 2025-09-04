@@ -11,8 +11,8 @@ const ConsultingCards = () => {
     <section id="services" className="py-14">
       <div className="container">
        <h2 className="md:text-5xl font-semibold text-center font-primary">
-  'Where Expertise Meets Execution—
-  <span className="text-orange-500 font-bold">Your ERP Consulting Arm</span>'
+  &apos;Where Expertise Meets Execution—
+  <span className="text-orange-500 font-bold">Your ERP Consulting Arm</span>&apos;
 </h2>
 
         <h5 className="text-center mt-3 font-medium font-secondary ">
