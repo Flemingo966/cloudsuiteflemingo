@@ -4,11 +4,10 @@ import { MobileNavItem } from "./mobile-nav-item";
 import { MobileNavbar } from "./mobile-navbar";
 import Image from "next/image";
 import NavLogo from "@/assets/brand-logos/nav-logo.png";
-import DownloadBrochureBtn from "./download-brochure-btn";
 
 const Navbar = () => {
   return (
-    <header className="sticky top-0 z-50 bg-green shadow-lg">
+    <header className="sticky top-0 z-50 bg-white shadow-lg">
       <div className="container flex items-center justify-between gap-10 py-2">
 
         {/* Logo + Subtext with LanceSoft Logo to the right */}
@@ -39,7 +38,6 @@ const Navbar = () => {
           <NavItem label="Solutions" href="#solutions" />
           <NavItem label="About Flemingo" href="#About Flemingo " />
           <NavItem label="Say Hey" href="mailto:sales@flemingoservices.com" />
-          <DownloadBrochureBtn />
         </nav>
 
         {/* Mobile Navigation */}

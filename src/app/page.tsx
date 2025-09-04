@@ -1,10 +1,12 @@
 import { Metadata } from "next";
-// import About from "./_components/about";
-// import AgricultureSuit from "./_components/agriculture-suit";
+import About from "./_components/about";
+import AgricultureSuit from "./_components/agriculture-suit";
+/**import BrandLogos from "./_components/brand-logos"; */
 import ConsultingCards from "./_components/consulting-cards";
 import CraftedERP from "./_components/crafted-erp";
 import Hero from "./_components/hero";
-import OurServices from "./_components/our-services";
+/**import IconCards from "./_components/icon-cards";*/
+/**import Testimonial from "./_components/testimonial";*/
 
 
 export const metadata: Metadata = {
@@ -17,10 +19,10 @@ export default function Home() {
     <>
       <Hero />
       <ConsultingCards />
-      <OurServices />
       <CraftedERP />
-      {/* <AgricultureSuit /> */}
-      {/* <About /> */}
+      <AgricultureSuit />
+      <About />
+      
     </>
   );
 }
