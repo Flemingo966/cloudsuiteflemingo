@@ -65,15 +65,15 @@ const Footer = () => {
         {/* Address */}
         <div className="text-sm text-white/90">
           <h5 className="text-orange text-xl mb-2">📍 INDIA</h5>
+
           <p>
-            CLOUDSUITE FLEMINGO SERVICES<br />
+             CLOUDSUITE FLEMINGO SERVICES<br /> 
             203 PLOT NO. 53 ABOUT DESTINY CAFE<br />
             NEAR MEDANTA HOSPITAL<br />
             Indore, Madhya Pradesh 452010
           </p>
 
         </div>
-
         {/* Social Media Icons */}
         <div className="flex gap-4">
           <Link href="https://www.instagram.com/flemingoservices/?hl=en">
